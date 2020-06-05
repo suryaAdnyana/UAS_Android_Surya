@@ -3,24 +3,30 @@ package com.example.suryauas;
 public class Menu {
 
     private String nama;
-    private String harga;
-    private String gambar;
+    private String des;
+    private String img;
+    private String ket;
 
-    public Menu(String datanama, String dataharga, String datagambar){
+    public Menu(String datanama, String datades, String datagambar, String dataket){
         nama=datanama;
-        harga=dataharga;
-        gambar=datagambar;
+        des=datades;
+        img=datagambar;
+        ket=dataket;
     }
 
     public String getNama() {
         return nama;
     }
 
-    public String getHarga() {
-        return harga;
+    public String getDes() {
+        return des;
     }
 
-    public String getGambar() {
-        return gambar;
+    public String getImg() {
+        return img;
+    }
+
+    public String getKet() {
+        return ket;
     }
 }
